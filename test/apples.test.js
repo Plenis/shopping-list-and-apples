@@ -85,8 +85,47 @@ describe("The apple seller functions", function() {
 	};
 
 	it("should be able to calculate the total number of apples sold", function() {
-		assert.equal(23, totalNumberSold(applesSoldList1));
-		assert.equal(40, totalNumberSold(applesSoldList2));
+		input = AppleSeller()
+		input.totalNumberSold(red, 2)
+			const applesSoldList1 = [{
+				color : "red",
+				qty: 2,
+				price: 4.25
+			},
+			{
+				color : "red",
+				qty: 4,
+				price: 5.50
+			},
+			{
+				color : "yellow",
+				qty: 4,
+				price: 5.73
+			},
+			{
+				color : "green",
+				qty: 4,
+				price: 7.45
+			},
+			{
+				color : "green",
+				qty: 3,
+				price: 6.45
+			},
+			{
+				color : "yellow",
+				qty: 3,
+				price: 4.80
+			},
+			{
+				color : "green",
+				qty: 3,
+				price: 6.45
+			}];
+		
+		
+		assert.equal(23, input.totalNumberSold(applesSoldList1));
+		assert.equal(40, input.totalNumberSold(applesSoldList2));
 	});
 
 	it("should be able to calculate the total income from all the apples sold", function() {

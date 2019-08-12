@@ -4,9 +4,76 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="simplegrid.css">
+	<link rel="stylesheet" href="shopping-list.css">
 	<title>Document</title>
 </head>
 <body>
-	<h1>Shopping list</h1>
+	<!-- <div class="col-12 ">
+			 -->
+	<h1 class="heading center">Shopping list</h1>
+	<img id="myImg"src="shopping.webp">
+<!-- </div> -->
+
+<div class="row2">
+		<div class="displayList col-8 center">
+	   
+	   </div>
+</div>
+
+<div class="col-12 center">
+<input class=" u-full-width listInput" type="text" placeholder="What would you like to get?">
+</div>
+
+<div class=" six columns center">
+   
+		
+		<input class="u-full-width quantityOption" type="number" placeholder="Quanity (1-20)" class="quantityOption" value="">
+
+	  </div>
+
+<div class="six columns center">
+		<h5>What's your budget?</h5>
+   
+		<label for="">Shopping Budget</label>
+		<input class="u-full-width warningLevelSetting " type="number" placeholder="eg. 0.00" class="updateInput" value="">
+		
+		<button class="button-primary updateBtn" type="button" name="button">Update  Budget</button>
+
+	  </div>
+ 
+
+	  <div class='col-12 center'>
+			<p class='msg'></p>
+		</div>
+
+<div class="addBtn">
+	<button>Add to List</button>
+</div>
+
+<div class="removeBtn">
+	<button>Remove List</button>
+</div>
+<!-- 
+	<table style="width:100%">
+		<h1 class="itemHolder center">ITEMS</h1>
+	
+		<tr>
+		  <th>Description</th>
+		  <th>Price</th> 
+		</tr>
+		<tr>
+		  <td>Milk</td>
+		  <td>R17</td> 
+		</tr>
+		<tr>
+		  <td>Eve</td>
+		  <td>Jackson</td> 
+		</tr>
+	  </table> -->
+
 </body>
+<link rel="stylesheet" href="shopping-list.js">
+<link rel="stylesheet" href="shopping-list-dom.js">
 </html>

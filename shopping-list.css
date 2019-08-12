@@ -1,0 +1,49 @@
+#myImg{
+    align-items: center;
+    position: relative;
+}
+
+.col-12{
+   float: right;
+   position: absolute;
+}
+
+.addBtn{
+   position: absolute;
+   bottom: 300px;
+   right: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+ 
+}
+
+.removeBtn{
+    position: absolute;
+    bottom: 250px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quantityOption{
+    position: absolute;
+    bottom: 350px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.listInput{
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+        /* background-color: black;
+        color: white; */
+        padding-left: 20px;
+        padding-right: 20px;
+      
+}
+
+.totalDisplay{
+    position: center;
+}
